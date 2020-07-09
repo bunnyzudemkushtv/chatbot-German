@@ -1,0 +1,19 @@
+/*
+PLUGIN BY: Bunnyzudemkushtv
+Trovo Link: https://trovo.live/Bunnyzudemkushtv
+Discord: bunnyzudemkushtv#2919
+
+Description: Shoutout command
+
+
+Updated by: Bunnyzudemkushtv
+Changes: Added funcitonality for @ and non-@ shout outs.
+*/
+console.log('loaded twitter')
+module.exports = {
+	name: 'twitter',
+	description: 'Replies with Pong',
+	permissions: [],
+	execute(message, args, user, bot, event, plugins) {
+		bot.sendMessage(`Mein Twitter @${user}  https://twitter.com/bunnyzudemkush0 hier werdet ihr Heiße Tweets lesen`);
+	},
